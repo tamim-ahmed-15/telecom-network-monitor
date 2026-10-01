@@ -1,0 +1,87 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.local
+.env.*.local
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Large / Generated Data
+# ==============================
+data/external/*
+!data/external/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Small sample data may be committed
+# data/sample/ is intentionally not ignored
+
+# ==============================
+# ML Models / Artifacts
+# ==============================
+ml/models/*
+!ml/models/.gitkeep
+
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+
+# ==============================
+# Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Python Packaging
+# ==============================
+build/
+dist/
+*.egg-info/
