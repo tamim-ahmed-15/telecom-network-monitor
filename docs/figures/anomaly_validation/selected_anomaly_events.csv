@@ -1,0 +1,8 @@
+anomaly_type,anomaly_id,cell_id,start_time,end_time,duration_minutes
+latency_spike,ANOM_0127,RAJ_002,2026-01-09 06:00:00,2026-01-09 06:15:00,30
+packet_loss_spike,ANOM_0135,SYL_003,2026-01-12 10:45:00,2026-01-12 11:00:00,30
+throughput_degradation,ANOM_0164,CTG_002,2026-01-05 10:45:00,2026-01-05 11:30:00,60
+traffic_surge,ANOM_0130,RAJ_001,2026-01-09 03:15:00,2026-01-09 04:00:00,60
+cpu_overload,ANOM_0054,SYL_001,2026-01-08 04:30:00,2026-01-08 05:30:00,75
+memory_overload,ANOM_0083,RAJ_003,2026-01-02 19:30:00,2026-01-02 21:15:00,120
+multi_kpi_degradation,ANOM_0021,SYL_002,2026-01-05 03:15:00,2026-01-05 05:30:00,150
